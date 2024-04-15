@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+div.container {
+    display: grid ;
+    grid-row-gap: 10px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    margin-right: 50%;
+    
+}
+
+div.Ironman{
+    background-color: red;
+    border: 3px solid rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+div.Ironman h2 {
+    font-size: 24px;
+}
+
+
+div.CapAmerica {
+    background-color: rgb(67, 67, 196);
+    border: 3px solid;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.CapAmerica h2{
+    font-size: 24px;
+}
+
+div.Hulk {
+    background-color: green;
+    border: 3px solid black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Hulk h2{
+    font-size: 24px;
+}
+
+div.Filmes {
+    width:100%;
+    background-color: yellow;
+    margin: 8px;
+    border-radius: 20px;
+    text-align: center;
+    border: 3px solid black
+    ;
+
+  }
+  div.Filmes div {
+    width:33%;  
+    float:left;
+    background-color: aquamarine;
+    border: 2px solid black
+  }
